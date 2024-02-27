@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background-color: red;
+    padding: 35px;
+}
+
+.saopaulologo {
+    width: 5%;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.opcaonav {
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.barranav li{
+    display: inline;
+    padding: 120px;
+}
+
+.opcaonav:hover {
+    transition: 0.2s;
+    color: white;
+}
+
+.linhaembaixodocabecalho {
+    position: absolute;
+    top: 119px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.youtube {
+    position: absolute;
+    width: 35px;
+    right: 280px;
+    top: 48px;
+}
+
+.facebook {
+    position: absolute;
+    width: 35px;
+    right: 220px;
+    top: 47px;
+}
+
+.twitter {
+    position: absolute;
+    width: 28px;
+    right: 168px;
+    top: 52px;
+}
+
+.instagram {
+    position: absolute;
+    width: 28px;
+    right: 110px;
+    top: 52px;
+}
+
+.tiktok {
+    position: absolute;
+    width: 28px;
+    right: 55px;
+    top: 52px;
+}
+
+.saopaulotexto {
+    position: absolute;
+    font-family: 'Noto Sans';
+    font-size: 90px;
+    left: 32%;
+    top: 36%;
+    color: white;
+    text-shadow: -1px 1px 2px #000,   
+				  1px 2px 6px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+.jogadoresspfc {
+    position: relative;
+    top: 70px;  
+    max-height: 600px;
+    object-fit: cover;
+    width: 80%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sombra {
+    position: absolute;
+    top: 199px;
+    left: 187px;
+    width: 80%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.historiatitulo, .proximosjogos {
+    font-size: 50px;
+    padding-top: 120px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.historia {
+    font-family: 'Open Sans';
+    font-weight: 200;
+    font-size: 23px;
+    text-align: center;
+}
+
+.interlimeira, .saopaulocontra1, .saopaulocontra2, .saopaulocontra3 {
+    max-height: 150px;
+}
+
+.palmeiras, .ituano {
+    max-height: 120px;
+}
+
+.saopaulocontra1, .saopaulocontra2, .saopaulocontra3 {
+    width: 120px;
+}
+
+.saopaulocontra1, .interlimeira {
+    padding: 30px;
+}
+
+.proximojogo1 {
+    position: absolute;
+    left: 750px;
+    top: 176.5%;
+}
+
+.proximojogotexto {
+    position: absolute;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    bottom: -60px;
+    left: 40px;
+}
+
+.saopaulocontra2, .palmeiras {
+    padding: 30px;
+}
+
+.proximojogo2 {
+    position: absolute;
+    left: 200px;
+    top: 180%;
+}
+
+.saopaulocontra3, .ituano {
+    padding: 30px;
+}
+
+.proximojogo3 {
+    position: absolute;
+    top: 180%;
+    right: 200px;
+}
+
+ol {
+    list-style: none;
+}
+
+.rodape {
+    background-color: #ebebeb;
+    font-family: 'Open Sans';
+    padding: 20px;
+    position: relative;
+    right: 79px;
+    top: 400px;
+    width: 105%;
+    text-align: center;
